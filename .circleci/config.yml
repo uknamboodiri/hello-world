@@ -9,3 +9,8 @@ jobs:
          command: |
            echo 'Hello World!'
            echo 'This is the delivery pipeline'
+     - run:
+         name: 'code checkout'
+         command: |
+           ls -al
+           echo '^^^That is my hello-world code^^^'
